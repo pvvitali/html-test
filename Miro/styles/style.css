@@ -1,0 +1,209 @@
+*::selection {
+	background-color: rgb(80, 158, 158);
+	box-sizing: border-box;
+}
+
+
+
+body {
+	font-family: Roboto, sans-serif;
+	margin: 0;
+}
+
+
+header a {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0%;
+	text-align: center;
+	text-decoration: none;
+	color: #050038;
+}
+
+header a:hover {
+	color: #302596;
+	text-decoration: underline;
+}
+
+
+#sendEmail {
+	background-color: #4262FF;
+	color: #FFFFFF;
+	border: none;
+}
+
+#sendEmail:hover {
+	background-color: #2640be;
+}
+
+#sendEmail:active {
+	background-color: #0e153a;
+}
+
+form input:focus {
+	background-color: aqua;
+}
+
+.link {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0%;
+	color: #4262FF;
+}
+
+.link:hover {
+	color: #2640be;
+}
+
+h1, h2 {
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 56px;
+	letter-spacing: 1px;
+	color: #050038;
+}
+
+h1 {
+	margin: 0 0 17px 0;
+}
+
+header {
+	margin-bottom: 60px;
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0%;
+}
+
+.heroText {
+	color: #050038;
+	margin: 0 0 55px 0;
+}
+
+form input {
+	height: 32px;
+	border: 1px solid #9B99AF;
+	border-radius: 32px;
+	padding: 5px 10px;
+}
+
+form button {
+	height: 51px;
+	border: 1px solid #4262FF;
+	border-radius: 32px;
+	color: #FFFFFF;
+	background-color: #4262FF;
+	padding: 10px 20px;
+}
+
+form button:hover {
+	background-color: #283c9d;
+}
+
+.afterForm {
+	margin: 8px 0 52px 0;
+}
+
+.sectionText {
+	color: #05003899;
+}
+
+nav {
+	padding: 35px 50px;
+	border-bottom: 1px solid #F0F0F0;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	margin-inline: 0;
+	padding: 0;
+	display: flex;
+	gap: 34px;
+}
+
+.section1 {
+	display: flex;
+	gap: 50px;
+	flex-wrap: wrap;
+	padding: 20px;
+	margin-bottom: 45px;
+}
+.sectionCols {
+	flex: 1 1 calc(100% / 2 - 50px - 20px * 4);
+}
+
+.heroLogos {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+
+.section2 {
+	display: flex;
+	gap: 50px;
+	flex-wrap: wrap;
+	padding: 20px;
+	margin-bottom: 45px;
+}
+.section3 {
+	display: flex;
+	gap: 50px;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+	padding: 20px;
+	margin-bottom: 45px;
+}
+
+
+
+.sectionList li::marker {
+	content: url("../images/check.svg");
+}
+
+
+
+
+footer {
+	height: 117px;
+	background-color: #050038;
+}
+
+footer a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.itemsFooter {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	gap: 30px;
+	flex-wrap: wrap;
+	height: 117px;
+	padding-left: 25px;
+	align-items: center;
+}
+
+/* .itemsFooter a {
+	flex: 1 1 150px;
+} */

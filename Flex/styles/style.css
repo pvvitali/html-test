@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background: #1c1b21;
+	color: #fafafa;
+	font-size: 55px;
+	font-family: 'Fira Sans';
+}
+
+.container {
+	border: 10px solid #6c38cc;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	height: 100vh;
+	/* align-content: space-evenly; */
+	align-items: space-evently;
+}
+
+.item {
+	background: #232228;
+	border: 1px solid #6c38cc;
+	text-align: center;
+	width: 150px;
+	/* width: calc(100% / 3); */
+}
+
+.out-rec {
+	background: #232228;
+	border: 1px solid #6c38cc;
+	width: 200px;
+	height: 200px;
+	display: flex;
+	/* flex-wrap: wrap; */
+	justify-content: center;
+	align-content: center;
+	/* align-items: center; */
+}
+.in-rec {
+	background: #232228;
+	border: 1px solid #6c38cc;
+	width: 100px;
+	height: 100px;
+}
